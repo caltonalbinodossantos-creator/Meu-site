@@ -1,0 +1,228 @@
+/* Tema Claro */
+:root {
+    /* Cores - Tema Claro */
+    --bg-primary: #FFFFFF;
+    --bg-secondary: #F7FAFC;
+    --text-primary: #1E2A3A;
+    --text-secondary: #4A5568;
+    --accent: #3182CE;
+    --border: #E2E8F0;
+}
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+.header {
+    background-color: var(--bg-primary);
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.logo a {
+    color: var(--text-primary);
+}
+
+.nav-link {
+    color: var(--text-secondary);
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--accent);
+}
+
+.bar {
+    background-color: var(--text-primary);
+}
+
+.hero {
+    background-color: var(--bg-primary);
+}
+
+.greeting {
+    color: var(--accent);
+}
+
+.name {
+    color: var(--text-primary);
+}
+
+.title {
+    color: var(--text-secondary);
+}
+
+.hero-description {
+    color: var(--text-secondary);
+}
+
+.btn-primary {
+    background-color: var(--accent);
+    color: white;
+    border: 1px solid var(--accent);
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    color: var(--accent);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+}
+
+.btn-secondary:hover {
+    background-color: rgba(49, 130, 206, 0.1);
+}
+
+section {
+    background-color: var(--bg-primary);
+}
+
+.section-title {
+    color: var(--text-primary);
+}
+
+.section-title::after {
+    background-color: var(--accent);
+}
+
+.about-text {
+    color: var(--text-secondary);
+}
+
+.project-card {
+    background-color: var(--bg-secondary);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.project-card:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+    color: var(--text-primary);
+}
+
+.project-description {
+    color: var(--text-secondary);
+}
+
+.tech-tag {
+    color: var(--accent);
+    background-color: rgba(49, 130, 206, 0.1);
+}
+
+.project-link {
+    color: var(--text-primary);
+}
+
+.project-link:hover {
+    color: var(--accent);
+}
+
+.skill-item {
+    background-color: var(--bg-secondary);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.skill-icon {
+    color: var(--accent);
+}
+
+.skill-name {
+    color: var(--text-primary);
+}
+
+.level-bar {
+    background-color: var(--border);
+}
+
+.level-fill {
+    background-color: var(--accent);
+}
+
+.education-item {
+    background-color: var(--bg-secondary);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.education-title {
+    color: var(--text-primary);
+}
+
+.education-institution {
+    color: var(--accent);
+}
+
+.education-period {
+    color: var(--text-secondary);
+}
+
+.education-description {
+    color: var(--text-secondary);
+}
+
+.contact-info {
+    color: var(--text-secondary);
+}
+
+.contact-info h3 {
+    color: var(--text-primary);
+}
+
+.contact-item i {
+    color: var(--accent);
+}
+
+.social-link {
+    background-color: var(--bg-secondary);
+    color: var(--accent);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.social-link:hover {
+    background-color: var(--accent);
+    color: white;
+}
+
+.contact-form {
+    background-color: var(--bg-secondary);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.form-group label {
+    color: var(--text-primary);
+}
+
+.form-group input,
+.form-group textarea {
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: var(--accent);
+}
+
+.footer {
+    background-color: var(--bg-primary);
+    border-top: 1px solid var(--border);
+}
+
+.footer-link {
+    color: var(--text-secondary);
+}
+
+.footer-link:hover {
+    color: var(--accent);
+}
+
+.copyright {
+    color: var(--text-secondary);
+}
+
